@@ -1,17 +1,18 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/guivictorr/gopportunities/config"
 	"github.com/guivictorr/gopportunities/router"
 )
 
+var logger config.Logger
+
 func main() {
+	logger = *config.GetLogger("main")
 	// Initialize Configs
 	err := config.Init()
 	if err != nil {
-		fmt.Println(err)
+		logger.Errorf("config initialization error: %v", err)
 		return
 	}
 
