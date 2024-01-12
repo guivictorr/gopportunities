@@ -5,10 +5,10 @@ import (
 	"github.com/guivictorr/gopportunities/router"
 )
 
-var logger config.Logger
+var logger *config.Logger
 
 func main() {
-	logger = *config.GetLogger("main")
+	logger = config.GetLogger("main")
 	// Initialize Configs
 	err := config.Init()
 	if err != nil {
