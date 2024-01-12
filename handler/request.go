@@ -7,12 +7,12 @@ func errParamIsRequired(name, typ string) error {
 }
 
 type CreateOpeningRequest struct {
-	Remote   *bool  `json:"salary"`
-	Role     string `json:"updatedAt"`
-	Company  string `json:"role"`
-	Location string `json:"company"`
-	Link     string `json:"location"`
-	Salary   int64  `json:"link"`
+	Remote   *bool  `json:"remote"`
+	Role     string `json:"role"`
+	Company  string `json:"company"`
+	Location string `json:"location"`
+	Link     string `json:"link"`
+	Salary   int64  `json:"salary"`
 }
 
 func (r *CreateOpeningRequest) Validate() error {
