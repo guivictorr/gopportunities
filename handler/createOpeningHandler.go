@@ -8,6 +8,7 @@ import (
 )
 
 // @BasePath /api/v1
+
 // @Summary Create Opening
 // @Description Create a new job opening
 // @Tags Openings
