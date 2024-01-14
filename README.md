@@ -1,5 +1,5 @@
 <h1 align='center'>gopportunities</h1>
-<p align='center'>I built this little api to learn Go and it's concepts following a [video](https://www.youtube.com/watch?v=wyEYpX5U4Vg&list=WL&index=19) from @arthur404dev</p>
+<p align='center'>I built this little api to learn Go and it's concepts following a <a href="https://www.youtube.com/watch?v=wyEYpX5U4Vg">video</a> from @arthur404dev</p>
 
 ## 🛠 Technologies
 
