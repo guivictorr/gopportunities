@@ -23,7 +23,7 @@ cd gopportunities
 go mod tidy
 
 ## 4. Run the app
-make
+go run main.go
 ```
 
 ## 🤔 How to contribute
