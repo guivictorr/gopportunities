@@ -7,6 +7,20 @@ import (
 	"github.com/guivictorr/gopportunities/schemas"
 )
 
+// @BasePath /api/v1
+
+// @Summary Update Opening
+// @Description Update a job opening
+// @Tags Openings
+// @Accept json
+// @Produce json
+// @Param id query string true "Opening identification"
+// @Param opening body UpdateOpeningRequest true "Opening data"
+// @Success 200 {object} UpdateOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [put]
 func UpdateOpeningHandler(ctx *gin.Context) {
 	request := UpdateOpeningRequest{}
 
