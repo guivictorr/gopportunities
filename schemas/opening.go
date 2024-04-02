@@ -17,14 +17,14 @@ type Opening struct {
 }
 
 type OpeningResponse struct {
-	CreatedAt time.Time `json:"id"`
-	UpdatedAt time.Time `json:"createdAt"`
+	CreatedAt time.Time `json:"createdAt"`
+	UpdatedAt time.Time `json:"updatedAt"`
 	DeletedAt time.Time `json:"deletedAt,omitempty"`
-	Role      string    `json:"updatedAt"`
-	Company   string    `json:"role"`
-	Location  string    `json:"company"`
-	Link      string    `json:"location"`
-	ID        uint      `json:"remote"`
-	Salary    int64     `json:"link"`
-	Remote    bool      `json:"salary"`
+	Role      string    `json:"role"`
+	Company   string    `json:"company"`
+	Location  string    `json:"location"`
+	Link      string    `json:"link"`
+	ID        uint      `json:"id"`
+	Salary    int64     `json:"salary"`
+	Remote    bool      `json:"remote"`
 }
